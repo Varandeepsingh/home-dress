@@ -1,0 +1,497 @@
+body{
+    padding: 0;margin: 0;
+}
+header{
+    padding: 0;margin: 0;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-color: whitesmoke;
+    
+}
+.name
+{
+    width: 30%;
+    font-family:Poor Richard;
+    font-weight: bold;
+    font-size: xxx-large;
+    position: absolute;
+    left: 2%;
+    top: 15% ;
+    
+}
+.navbardiv{
+    display: inline-block;
+    position: relative;
+    left: 22%;
+    width: 50%;
+    height: 100%;
+    top: 19%;
+}
+.navbardiv li{
+    display: inline;
+}
+.navbardiv li a{
+    font-size:larger;
+    margin: 2%;
+    top: 4px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+ .righttop{
+    position: fixed;
+    top: 3%;
+    left: 85%   ;
+ }
+ .righticon{
+    position: fixed;
+    top: 3%;
+    left: 80%;
+ }
+ .img2{
+    position: fixed;
+    width: 40px;
+    top: 22px;
+    left: 77%;
+    transition: all 0.5s ease;
+ }
+ .img2:hover{
+   transform:scale(1.3);
+   cursor: pointer;
+ }
+ .iimmgg2{
+   transition: all 0.5s ease;
+ }
+ .iimmgg2:hover{
+   transform:scale(1.3);
+   cursor: pointer;
+ }
+ .toplowerdiv{
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 12%;
+ }
+ .top2lowerdiv{
+   width: 100%;
+   position: absolute;
+   background-color: black;
+   top: 42%;
+}
+.mid2div{
+   position: absolute;
+   width: 100%;
+   height: 660px;
+   /* background-color: rgb(130, 248, 132); */
+   background-image: linear-gradient(rgb(236, 237, 236),rgb(132, 161, 255));
+   top: 104%;
+}
+.mid2div2{
+   width: 95%;
+   height: 70%;
+   position: absolute;
+   background-color: white;
+   top: 10%;
+   left: 2.5%;
+   border-radius: 13px;
+}
+.top3lowerdiv{
+   width: 100%;
+   position: absolute;
+   background-color: black;
+   top: 42%;
+}
+.mid3div{
+   position: absolute;
+   width: 100%;
+   height: 660px;
+   /* background-color: rgb(130, 248, 132); */
+   background-image: linear-gradient(rgb(236, 237, 236),rgb(132, 161, 255));
+   top: 204%;
+}
+.mid3div2{
+   width: 95%;
+   height: 70%;
+   position: absolute;
+   background-color: white;
+   top: 10%;
+   left: 2.5%;
+   border-radius: 13px;
+}
+ .middiv{
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    /* background-color: rgb(130, 248, 132); */
+    background-image: linear-gradient(rgb(236, 237, 236),rgb(132, 161, 255));
+    top: 14%;
+ }
+ .middiv2{
+    width: 95%;
+    height: 70%;
+    position: absolute;
+    background-color: white;
+    top: 7%;
+    left: 2.5%;
+    border-radius: 13px;
+ }
+ .ldiv{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    
+ }
+ .txt1{
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+ }
+ .txt2{
+    font-size: xx-large;
+    color: rgb(131, 130, 130);
+    font-family: Georgia;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    
+ }
+ .txt3{
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    
+ }
+ .txt4{
+    font-size: larger;
+    color: rgb(131, 130, 130);
+    font-family: Georgia;
+    position: absolute;
+    top: 48%;
+    left: 20%;
+    
+ }
+ .txt5{
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    
+ }
+ .txt6{
+    font-size: larger;
+    color: rgb(131, 130, 130);
+    font-family: Georgia;
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    
+ }
+ .btn1{
+    position: absolute;
+    width: 20%;
+    height: 7%;
+    border-radius: 50px;
+    top:85%;
+    left: 24%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.828);
+    background-color: whitesmoke
+ }
+ .btn1:hover{
+   cursor: pointer;
+ }
+ .im1{
+    width: 100%;
+    position: absolute;
+ }
+ .rdiv{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    
+ }
+ .im1{
+    top: 6%;
+    width: 45%;
+    height: 37%;
+    border-radius: 23px;
+    transition: all 0.5s ease;
+ }
+ .im2{
+    position: absolute;
+    top: 6%;
+    width: 45%;
+    height: 37%;
+    left: 50%;
+    border-radius: 23px;
+    transition: all 0.5s ease;
+ }
+ .im1:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 5px black;
+    cursor: pointer;
+}
+ 
+ .im2:hover{
+   transform:scale(1.1);
+   box-shadow:0 0 5px black;
+   cursor: pointer;
+}
+.im3{
+   position: absolute;
+   top: 52%;
+   width: 45%;
+   height: 37%;
+   left: 50%;
+   border-radius: 23px;
+   transition: all 0.5s ease;
+}
+.im3:hover{
+   transform:scale(1.1);
+   box-shadow:0 0 5px black;
+   cursor: pointer;}
+.im4{
+   position: absolute;
+   top: 52%;
+   width: 45%;
+   height: 37%;
+   
+   border-radius: 23px;
+   transition: all 0.5s ease;
+}
+
+.im4:hover{
+   transform:scale(1.1);
+   box-shadow:0 0 5px black;
+   cursor: pointer;}
+
+
+.divlowerscroll{
+   position: absolute;
+   width: 100%;
+   z-index: -1; 
+   height: 600px;
+   background-color: #ffffff;
+   top: 110%;
+}   
+  
+div.scroll-container {
+   background-color: #333;
+   overflow: auto;
+   white-space: nowrap;
+   padding: 10px;
+ }
+ 
+ div.scroll-container img {
+   padding: 10px;
+ }
+ .imgscroll
+ {
+   width: 400px;
+   transition: all 0.5s ease;
+ }
+ .imgscroll:hover{
+   transform:scale(1.1);
+   box-shadow:0 0 5px black;
+   cursor: pointer;}
+
+ .textsc
+ {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   font-size: xxx-large;
+   align-content: center;
+   text-align: center;
+   padding: 5%;
+}
+.ab
+{
+   width: 100%;
+   height: 400px;
+   background-image: linear-gradient(to bottom ,rgb(236, 234, 234),whitesmoke);
+   position: absolute;
+   top: 230%;
+}
+.ab2
+{
+   width: 100%;
+   height: 400px;
+   background-image: linear-gradient(to bottom ,rgb(236, 234, 234),whitesmoke);
+   position: absolute;
+   top: 300%;
+}
+.h1txt
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: xxx-large;
+   position: absolute;
+   left: 2%;
+}
+.htxt
+{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   top: 24%;
+   left:2% ;
+   width: 80%;
+   position: absolute;
+   color: #616060;
+}
+footer{
+   top: 80%;
+   position: absolute;
+   left: 45%;
+   align-content: center;
+   text-align: center;
+}
+.imga1{
+   width: 50px;
+   top: 60%;
+   left: 23px;
+   position: absolute;
+   transition: all 0.5s ease;
+
+}
+.imga1:hover{
+   transform:scale(1.3);
+   cursor: pointer;}
+.imga2:hover{
+      transform:scale(1.3);
+      cursor: pointer;}
+.imga3:hover{
+         transform:scale(1.3);
+         cursor: pointer;}         
+.imga2{
+   width: 50px;
+   top: 60%;
+   left: 88px;
+   position: absolute;
+   transition: all 0.5s ease;
+}
+.imga3{
+   width: 45px;
+   top: 60%;
+   left: 158px;
+   position: absolute;
+   transition: all 0.5s ease;
+
+}
+.txtl
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: xx-large;
+   position: absolute;
+   left: 2%;
+   top:48% ;
+}
+
+.popup
+{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.822);
+   top: 0;
+   left: 0;
+   overflow: auto;
+   display: none;
+   z-index: 1;
+}
+.contentpopup
+{
+   position: absolute;
+   top: 20%;
+   left: 30%;
+   padding: 10px;
+   border: 1px solid rgb(189, 141, 236);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.828);
+   background-color: #ffffff;
+   width: 40%;
+   height: 60%;
+   border-radius: 13px;
+}
+.closepopup
+{
+   cursor: pointer;
+   float: right;
+   font-weight: bold;
+   font-size: 28px;
+   margin-right: 10px;
+   transition: all ease 0.5s;
+}
+.closepopup:hover{
+   transform: scale(1.5)
+   
+}
+.stxt4{
+   font-size: larger;
+   color: rgb(131, 130, 130);
+   font-family: Georgia;
+   position: absolute;
+   top: 32%;
+   left: 20%;
+   width: 470px; ;
+}
+.signdiv
+{
+   position: absolute;
+   top: 17%;
+   left: 20%;
+   font-size: x-large;
+   color: rgb(0, 0, 0);
+   font-family: Georgia;
+   
+}
+
+.container {
+  
+   width: 100%;
+   max-width: 100%;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+   margin-bottom: 15px;
+}
+.input-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.input-group input {
+   width: 80%;
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+.input-group input:focus {
+   outline: none;
+   border-color: #007BFF;
+}
+.signup-btn {
+   width: 80%;
+   padding: 10px;
+   background-color: #007BFF;
+   color: white;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.signup-btn:hover {
+   background-color: #0056b3;
+}
